@@ -1,0 +1,139 @@
+/* =========================
+   GLOBAL RESET
+========================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background-color: #f8f9fa; /* Bootstrap light gray */
+  color: #212529;
+}
+
+/* Remove Vite default centering */
+body {
+  display: block;
+}
+
+/* =========================
+   APP CONTAINER
+========================= */
+
+#app {
+  min-height: 100vh;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+  color: #343a40;
+}
+
+/* =========================
+   CARDS
+========================= */
+
+.card {
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  border: none;
+}
+
+/* =========================
+   DASHBOARD STAT BOXES
+========================= */
+
+.stat-card {
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  transition: 0.2s ease-in-out;
+}
+
+.stat-card:hover {
+  transform: translateY(-4px);
+}
+
+/* =========================
+   TABLE IMPROVEMENTS
+========================= */
+
+.table {
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background-color: #343a40;
+  color: white;
+}
+
+/* =========================
+   NAVBAR FIX
+========================= */
+
+.navbar {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+/* =========================
+   BUTTON POLISH
+========================= */
+
+.btn {
+  border-radius: 8px;
+  font-weight: 500;
+}
+
+/* =========================
+   FORM STYLING
+========================= */
+
+.form-control {
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.15rem rgba(13, 110, 253, 0.25);
+}
+
+/* =========================
+   SIDEBAR (If Using)
+========================= */
+
+.sidebar {
+  min-height: 100vh;
+  background: #212529;
+  color: white;
+}
+
+.sidebar a {
+  color: #adb5bd;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: white;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  color: #6c757d;
+}
